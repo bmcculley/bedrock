@@ -1,0 +1,67 @@
+.gd .row {
+	background: #000;
+	color: #fff;
+	padding: 4px 0;
+	text-align: center;
+}
+
+.colophon {
+	border-top: 1px solid #ccc;
+}
+
+/* =Responsive (Mobile) Design
+-------------------------------------------------------------- */
+@media screen and (max-width: 980px) {
+	.gd .span-12 {
+		background: #fff;
+	}
+
+    .gd .row {
+		color: #000;
+	}
+    
+}
+
+@media screen and (max-width: 650px) {
+	.gd .span-12 {
+		background: #fff;
+	}
+
+    .gd .row {
+		color: #000;
+	}
+    
+}
+
+@media screen and (max-width: 480px) {
+	.gd .span-12 {
+		background: #fff;
+	}
+
+    .gd .row {
+		color: #000;
+	}
+    
+}
+
+@media screen and (max-width: 320px) {
+	.gd .span-12 {
+		background: #fff;
+	} 
+
+    .gd .row {
+		color: #000;
+	}
+
+}
+
+@media screen and (max-width: 240px) {
+	.gd .span-12 {
+		background: #fff;
+	}
+
+    .gd .row {
+		color: #000;
+	}
+	
+}
