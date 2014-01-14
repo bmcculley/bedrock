@@ -248,7 +248,7 @@ pre {
 .alert {
   padding: 15px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 
 .alert h4 {
@@ -272,7 +272,7 @@ pre {
 .alert-success {
   color: #468847;
   background-color: #dff0d8;
-  border-color: #d6e9c6;
+  border-color: #c6d880;
 }
 
 .alert-success hr {
@@ -286,7 +286,7 @@ pre {
 .alert-info {
   color: #3a87ad;
   background-color: #d9edf7;
-  border-color: #bce8f1;
+  border-color: #92cae4;
 }
 
 .alert-info hr {
@@ -300,7 +300,7 @@ pre {
 .alert-warning {
   color: #c09853;
   background-color: #fcf8e3;
-  border-color: #fbeed5;
+  border-color: #ffd324;
 }
 
 .alert-warning hr {
@@ -314,7 +314,7 @@ pre {
 .alert-danger {
   color: #b94a48;
   background-color: #f2dede;
-  border-color: #eed3d7;
+  border-color: #fbc2c4;
 }
 
 .alert-danger hr {
