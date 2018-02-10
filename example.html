@@ -34,7 +34,7 @@
 			<h5>Heading 5</h5>
 			<p>Paragraph</p>
 			<p><a href="">Link text</a></p>
-			<blockquote><p>You're good. Get better. Stop asking for things.</p></blockquote>
+			<blockquote><p>Hello, world!</p></blockquote>
 			<pre>&lt;script&gt;Some code&lt;/script&gt;</pre>
 			
 			<hr>
@@ -52,7 +52,7 @@
 			<h2>Notifications/Alerts</h2>
 
 			<div class="alert alert-success">
-				<strong>Successs!</strong> A great one.
+				<strong>Success!</strong> A great one.
 			</div>
 			<div class="alert alert-info">
 				<strong>Info!</strong> Here's some useful information.
@@ -69,58 +69,60 @@
 			<h2>Lists</h2>
 
 			<div class="container">
-				<div class="row span4">
-			        <h3>Unordered List</h3>
+				<div class="row">
+					<div class="col-4">
+				        <h3>Unordered List</h3>
 
-			        <ul>
-			            <li>list item 1</li>
-			            <li>list item 1
-			                <ul>
-			                    <li>list item 2</li>
-			                    <li>list item 2
-			                        <ul>
-			                            <li>list item 3</li>
-			                            <li>list item 3</li>
-			                        </ul>
-			                    </li>
-			                    <li>list item 2</li>
-			                    <li>list item 2</li>
-			                </ul>
-			            </li>
-			            <li>list item 1</li>
-			            <li>list item 1</li>
-			        </ul>
-			    </div>
-			    <div class="row span4">
-			        <h3>Ordered List</h3>
+				        <ul>
+				            <li>list item 1</li>
+				            <li>list item 1
+				                <ul>
+				                    <li>list item 2</li>
+				                    <li>list item 2
+				                        <ul>
+				                            <li>list item 3</li>
+				                            <li>list item 3</li>
+				                        </ul>
+				                    </li>
+				                    <li>list item 2</li>
+				                    <li>list item 2</li>
+				                </ul>
+				            </li>
+				            <li>list item 1</li>
+				            <li>list item 1</li>
+				        </ul>
+				    </div>
+				    <div class="col-4">
+				        <h3>Ordered List</h3>
 
-			        <ol>
-			            <li>list item 1</li>
-			            <li>list item 1
-			                <ol>
-			                    <li>list item 2</li>
-			                    <li>list item 2
-			                        <ol>
-			                            <li>list item 3</li>
-			                            <li>list item 3</li>
-			                        </ol>
-			                    </li>
-			                    <li>list item 2</li>
-			                    <li>list item 2</li>
-			                </ol>
-			            </li>
-			            <li>list item 1</li>
-			            <li>list item 1</li>
-			        </ol>
-			    </div>
-				<div class="row span4 fit">
-					<h3>No List</h3>
+				        <ol>
+				            <li>list item 1</li>
+				            <li>list item 1
+				                <ol>
+				                    <li>list item 2</li>
+				                    <li>list item 2
+				                        <ol>
+				                            <li>list item 3</li>
+				                            <li>list item 3</li>
+				                        </ol>
+				                    </li>
+				                    <li>list item 2</li>
+				                    <li>list item 2</li>
+				                </ol>
+				            </li>
+				            <li>list item 1</li>
+				            <li>list item 1</li>
+				        </ol>
+				    </div>
+					<div class="col-4">
+						<h3>No List</h3>
 
-					<ul class="nolist">
-						<li>Option 1</li>
-						<li>Option 2</li>
-						<li>Option 3</li>
-					</ul>
+						<ul class="nolist">
+							<li>Option 1</li>
+							<li>Option 2</li>
+							<li>Option 3</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -186,93 +188,250 @@
 				</div>
 				<button class="btn">Submit</button>
 			</form>
+
+			<hr>
+
+			<h2>Panels</h2>
 			
+			<div class="row">
+				<div class="col-4">
+					<div class="panel">
+                        <div class="panel-heading">
+                            <span class="panel-title">
+                            Example Panel
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                            <p>Hello, world!</p>
+                        </div>
+                    </div>
+				</div>
+				<div class="col-4">
+					<div class="panel">
+                        <div class="panel-heading">
+                            <span class="panel-title">
+                            Example Panel
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                            <p>Hello, world!</p>
+                        </div>
+                    </div>
+				</div>
+				<div class="col-4">
+					<div class="panel">
+                        <div class="panel-heading">
+                            <span class="panel-title">
+                            Example Panel
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                            <p>Hello, world!</p>
+                        </div>
+                    </div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
 			<hr>
 			
 			<h2>Responsive Grid</h2>
 
-			<div class="gd container">
-				<div class="row span12">
-		            <div>&lt;div class="row span12"&gt;</div>
-		        </div>
-		        <div class="row span11">
-		            <div>&lt;div class="row span11"&gt;</div>
-		        </div>
-		        <div class="row span1 fit">
-		            <div>span-1</div>
-		        </div>
-		        <div class="row span6">
-		            <div>&lt;div class="row span6"&gt;</div>
-		        </div>
-		        <div class="row span6 fit">
-		            <div>&lt;div class="row span6 fit"&gt;</div>
-		        </div>
-		        <div class="row span4">
-		            <div>&lt;div class="row span4"&gt;</div>
-		        </div>
-		        <div class="row span4">
-		            <div>&lt;div class="row span4"&gt;</div>
-		        </div>
-		        <div class="row span4 fit">
-		            <div>&lt;div class="row span4 fit"&gt;</div>
-		        </div>
-		        <div class="row span3">
-		            <div>&lt;div class="row span3"&gt;</div>
-		        </div>
-		        <div class="row span3">
-		            <div>&lt;div class="row span3"&gt;</div>
-		        </div>
-		        <div class="row span3">
-		            <div>&lt;div class="row span3"&gt;</div>
-		        </div>
-		        <div class="row span3 fit">
-		            <div>&lt;div class="row span3 fit"&gt;</div>
-		        </div>
-		        <div class="row span7">
-		            <div>&lt;div class="row span7"&gt;</div>
-		        </div>
-		        <div class="row span5 fit">
-		            <div>&lt;div class="row span5 fit"&gt;</div>
-		        </div>
-		        <div class="row span8">
-		            <div>&lt;div class="row span8"&gt;</div>
-		        </div>
-		        <div class="row span4 fit">
-		            <div>&lt;div class="row span4 fit"&gt;</div>
-		        </div>
-		        <div class="row span9">
-		            <div>&lt;div class="row span9"&gt;</div>
-		        </div>
-		        <div class="row span3 fit">
-		            <div>&lt;div class="row span3 fit"&gt;</div>
-		        </div>
-		        <div class="row span3">
-		            <div>&lt;div class="row span3"&gt;</div>
-		        </div>
-		        <div class="row span9 fit">
-		            <div>&lt;div class="row span9 fit"&gt;</div>
-		        </div>
-			</div>
+			<div class="container gd">
+				<div class="row">
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
 
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
+					
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
+					
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
+
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
+					
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
+					
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
+					
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
+					
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row">
+					<div class="col-2">
+						<p>col-2</p>
+					</div>
+					<div class="col-2">
+						<p>col-2</p>
+					</div>
+					<div class="col-2">
+						<p>col-2</p>
+					</div>
+					<div class="col-2">
+						<p>col-2</p>
+					</div>
+					<div class="col-2">
+						<p>col-2</p>
+					</div>
+					<div class="col-2">
+						<p>col-2</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row">
+					<div class="col-3">
+						<p>col-3</p>
+					</div>
+					<div class="col-3">
+						<p>col-3</p>
+					</div>
+					<div class="col-3">
+						<p>col-3</p>
+					</div>
+					<div class="col-3">
+						<p>col-3</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>				
+				<div class="row">
+					<div class="col-4">
+						<p>col-4</p>
+					</div>
+					<div class="col-4">
+						<p>col-4</p>
+					</div>
+					<div class="col-4">
+						<p>col-4</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>				
+				<div class="row">
+					<div class="col-5">
+						<p>col-5</p>
+					</div>
+					<div class="col-7">
+						<p>col-7</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>				
+				<div class="row">
+					<div class="col-6">
+						<p>col-6</p>
+					</div>
+					<div class="col-6">
+						<p>col-6</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row">
+					<div class="col-7">
+						<p>col-7</p>
+					</div>
+					<div class="col-5">
+						<p>col-5</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row">
+					<div class="col-8">
+						<p>col-8</p>
+					</div>
+					<div class="col-4">
+						<p>col-4</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row">
+					<div class="col-9">
+						<p>col-9</p>
+					</div>
+					<div class="col-3">
+						<p>col-3</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row">
+					<div class="col-10">
+						<p>col-10</p>
+					</div>
+					<div class="col-2">
+						<p>col-2</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row">
+					<div class="col-11">
+						<p>col-11</p>
+					</div>
+					<div class="col-1">
+						<p>col-1</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row">
+					<div class="col-12">
+						<p>col-12</p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
 			<hr>
 
 			<h2>Images</h2>
-			<p><img src="img/2000x1500.gif"></p>
+			
 			<div class="container">
-				<div class="row span6">
-					<p><img src="img/2000x1500.gif"></p>
+				<div class="row">
+					<div class="col-12">
+						<p><img src="img/2000x1500.gif"></p>
+					</div>
 				</div>
-				<div class="row span4">
-					<p><img src="img/2000x1500.gif"></p>
-				</div>
-				<div class="row span2 fit">
-					<p><img src="img/2000x1500.gif"></p>
+
+				<div class="row">
+					<div class="col-6">
+						<p><img src="img/2000x1500.gif"></p>
+					</div>
+					<div class="col-4">
+						<p><img src="img/2000x1500.gif"></p>
+					</div>
+					<div class="col-2">
+						<p><img src="img/2000x1500.gif"></p>
+					</div>
 				</div>
 			</div>
 
 			<div class="colophon container">
-				<div class="row span10"><a href="https://github.com/bmcculley/bedrock">Bedrock</a> fork me on <a href="https://github.com/bmcculley/bedrock/fork">GitHub</a></div>
-				<div class="row span2 fit">By <a href="http://bmcculley.github.io">B McCulley</a></div>
+				<br>
+				<div class="row">
+					<div class="col-10"><a href="https://github.com/bmcculley/bedrock">Bedrock</a> fork me on <a href="https://github.com/bmcculley/bedrock/fork">GitHub</a></div>
+					<div class="col-2">By <a href="http://bmcculley.github.io">B McCulley</a></div>
+				</div>
 			</div>
 
 		</div>

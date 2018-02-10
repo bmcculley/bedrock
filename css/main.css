@@ -399,6 +399,44 @@ pre {
 }
 
 /* ==========================================================================
+   Panels
+   ========================================================================== */
+
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #bdc3c7;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.panel-heading {
+    background: #ecf0f1;
+    border-bottom: 1px solid #bdc3c7;
+    padding: 10px 15px;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.panel-title > a,
+.panel-title > small,
+.panel-title > .small,
+.panel-title > small > a,
+.panel-title > .small > a {
+    color: inherit;
+}
+
+/* ==========================================================================
    Form classes
    ========================================================================== */
 
@@ -477,6 +515,14 @@ form .error textarea {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
 
 /*
  * Image replacement
@@ -580,183 +626,128 @@ form .error textarea {
    ========================================================================== */
 
 .container {
-    margin: 0 auto;
-    padding: 2.127659574468%;
+  width: 97.58%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row {
-    float: left;
-    margin-bottom: 2.127659574468%;
-    padding-top: 0;
+  margin: 0 auto;
 }
 
-.row-right {
-    float: right;
-    margin-bottom: 2.127659574468%;
-    padding-top: 0;
+[class*='col-'] {
+  margin-right: 1.5%;
+  float: left;
+  min-height: 1px;
 }
 
-.span1, 
-.span2, 
-.span3, 
-.span4, 
-.span5, 
-.span6, 
-.span7, 
-.span8, 
-.span9, 
-.span10, 
-.span11 {
-    display: inline;
-    margin-right: 2.127659574468%;
+.col-1 {
+  width: 6.62%;
 }
 
-.span1 {
-    width: 6.382978723404%;
+.col-2 {
+  width: 14.89%;
 }
 
-.span2 {
-    width: 14.893617021277%;
+.col-3 {
+  width: 23.16%;
 }
 
-.span3 {
-    width: 23.404255319149%;
+.col-4 {
+  width: 31.43%;
 }
 
-.span4 {
-    width: 31.914893617021%;
+.col-5 {
+  width: 39.4%;
 }
 
-.span5 {
-    width: 40.425531914894%;
+.col-6 {
+  width: 48%;
 }
 
-.span6 {
-    width: 48.936170212766%;
+.col-7 {
+  width: 56.6%;
 }
 
-.span7 {
-    width: 57.446808510638%;
+.col-8 {
+  width: 64.51%;
 }
 
-.span8 {
-    width: 65.957446808511%;
+.col-9 {
+  width: 72.8%;
 }
 
-.span9 {
-    width: 74.468085106383%;
+.col-10 {
+  width: 81.1%;
 }
 
-.span10 {
-    width: 82.978723404255%;
+.col-11 {
+  width: 89.3%;
 }
 
-.span11 {
-    width: 91.489361702128%;
+.col-12 {
+  width: 97.58%;
+  float: left;
 }
 
-.span12 {
-    width: 100%;
+[class*='col-']:last-of-type {
+  margin-right: 0px;
 }
 
-.fit {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+img, 
+object, 
+embed {
+  max-width: 97.58%;
 }
 
 img {
-    -ms-interpolation-mode: bicubic;
-    border: 0;
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle;
+  height: auto;
 }
 
-/* =Responsive (Mobile) Design
--------------------------------------------------------------- */
-@media screen and (max-width: 980px) {
 
-    body {}
-    
-    .row, 
-    .row-right {
-        float: none;
-    }
-    
-    .hide-980 {
-        display: none;
-    }
-    
-    .show-980 {
-        display: block;
-    }
-    
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+
+  body {
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
+  
 }
 
-@media screen and (max-width: 650px) {
 
-    body {}
+/* Mobile */
 
-    .row, 
-    .row-right {
-        float: none;
-    }
+@media handheld, only screen and (max-width: 767px) {
 
-    
-    
-    .hide-650 {
-        display: none;
-    }
-    
-    .show-650 {
-        display: block;
-    }
-    
-}
+  body {
+    font-size: 16px;
+    -webkit-text-size-adjust: none;
+  }
+  
+  .row, 
+  body, 
+  .container {
+    width: 100%;
+    min-width: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  [class*='col-'] {
+    width: auto;
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-@media screen and (max-width: 480px) {
-
-    body {}
-
-    .row, 
-    .row-right {
-        float: none;
-    }
-
-    .hide-480 {
-        display: none;
-    }
-    
-    .show-480 {
-        display: block;
-    }
-    
-}
-
-@media screen and (max-width: 320px) {
-    
-    body {}
-
-    .hide-320 {
-        display: none;
-    }
-    
-    .show-320 {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 240px) {
-    
-    body {}
-    
-    .hide-240 {
-        display: none;
-    }
-    
-    .show-240 {
-        display: block;
-    }
 }
 
 /* ==========================================================================
